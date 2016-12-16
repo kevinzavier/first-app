@@ -3,15 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>Inline Template</h1>
-    <fa-other></fa-other>
-    <fa-another></fa-another>
+    <h1>Root Component</h1>
+    <fa-databinding></fa-databinding>
     `,
-  styles: [`
-        h1{
-          color: red;
-        }
-    `]
+  styles: []
 })
 export class AppComponent {
   title = 'Leggosss';
